@@ -1,33 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: reozbay <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/19 12:32:18 by reozbay           #+#    #+#             */
-/*   Updated: 2024/01/22 13:19:33 by reozbay          ###   ########.fr       */
+/*   Created: 2024/01/20 11:01:59 by reozbay           #+#    #+#             */
+/*   Updated: 2024/01/28 17:52:21 by reozbay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//#include <stdio.h>
 #include <unistd.h>
 
-void	ft_print_alphabet(void)
+char	*ft_strcpy(char *dest, char *src)
 {
-	char	l;
+	int	i;
 
-	l = 'a';
-	while (l <= 'z')
+	i = 0;
+	while (src[i] != '\0')
 	{
-		write (1, &l, 1);
-		l++;
+		dest[i] = src[i];
+		i++;
 	}
+	dest[i] = 0;
+	return (dest);
 }
 /*
-int	main(void)
+int main(void)
 {
-	ft_print_alphabet();
-	return 0;
+	char dest[20] = {};
+	char src[] = "GLIDEGLIDEGLIDEXDXD";
+	ft_strcpy(dest, src);
+	printf("%s", dest);
 }
 */
