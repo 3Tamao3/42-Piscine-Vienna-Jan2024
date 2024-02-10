@@ -1,6 +1,7 @@
-[IMPORTANT]
-Some of the code is probably wrong because i forgot to push the code that got accepted by moulinette 
+[IMPORTANT] [IMPORTANT] [IMPORTANT] [IMPORTANT] [IMPORTANT] [IMPORTANT] 
+Some of the code may be incorrect because I forgot to push the code that was accepted by the Moulinette.
 
-Coding School 42Vienna -> https://www.42vienna.com/
+Coding School: 42Vienna
+Website: https://www.42vienna.com/
 
-~ Randominette Enjoyer reozbay
+~ Randominette Enjoyer, reozbay
