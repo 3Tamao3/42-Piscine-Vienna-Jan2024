@@ -4,4 +4,4 @@ Some of the code may be incorrect because I forgot to push the code that was acc
 Coding School: 42Vienna
 Website: https://www.42vienna.com/
 
-~ Randominette Enjoyer, reozbay
+~ Randominette Enjoyer reozbay
