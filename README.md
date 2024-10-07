@@ -8,4 +8,4 @@ Website: https://www.42vienna.com/
 
 ~ Randominette Enjoyer reozbay
 
-(Dont copy paste!!! LEARN LEARN LEARN LEARN and RTFM,GIYF)
+(Dont copy paste!!! LEARN, RTFM and GIYBF)
